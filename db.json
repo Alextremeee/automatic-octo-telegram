@@ -1,0 +1,323 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    },
+    {
+      "responseId": "7784facd-f49e-4aaa-99bc-7dd5e5b6bef8",
+      "queryResult": {
+        "queryText": "yes",
+        "action": "Redeploydev.Redeploydev-yes",
+        "parameters": {},
+        "allRequiredParamsPresent": true,
+        "fulfillmentText": "\"Ok, I'm redeploying dev\"",
+        "fulfillmentMessages": [
+          {
+            "platform": "ACTIONS_ON_GOOGLE",
+            "simpleResponses": {
+              "simpleResponses": [
+                {
+                  "textToSpeech": "\"Ok, I'm redeploying dev\""
+                }
+              ]
+            }
+          },
+          {
+            "text": {
+              "text": [
+                "\"Ok, I'm redeploying dev\""
+              ]
+            }
+          }
+        ],
+        "outputContexts": [
+          {
+            "name": "projects/automatic-octo-telegram/agent/sessions/ABwppHHMIdBa5HPXbYZFrzfM7YrpQq3E0fMl3FVMcPY2PtBFgx9xlryHL2Z0esSedJ7hKNE3rM66cGpgePAtLlRiTpAyKoQ/contexts/actions_capability_screen_output",
+            "parameters": {
+              "given-name.original": "dev",
+              "given-name": "Dev"
+            }
+          },
+          {
+            "name": "projects/automatic-octo-telegram/agent/sessions/ABwppHHMIdBa5HPXbYZFrzfM7YrpQq3E0fMl3FVMcPY2PtBFgx9xlryHL2Z0esSedJ7hKNE3rM66cGpgePAtLlRiTpAyKoQ/contexts/actions_capability_audio_output",
+            "parameters": {
+              "given-name.original": "dev",
+              "given-name": "Dev"
+            }
+          },
+          {
+            "name": "projects/automatic-octo-telegram/agent/sessions/ABwppHHMIdBa5HPXbYZFrzfM7YrpQq3E0fMl3FVMcPY2PtBFgx9xlryHL2Z0esSedJ7hKNE3rM66cGpgePAtLlRiTpAyKoQ/contexts/google_assistant_input_type_keyboard",
+            "parameters": {
+              "given-name.original": "dev",
+              "given-name": "Dev"
+            }
+          },
+          {
+            "name": "projects/automatic-octo-telegram/agent/sessions/ABwppHHMIdBa5HPXbYZFrzfM7YrpQq3E0fMl3FVMcPY2PtBFgx9xlryHL2Z0esSedJ7hKNE3rM66cGpgePAtLlRiTpAyKoQ/contexts/actions_capability_web_browser",
+            "parameters": {
+              "given-name.original": "dev",
+              "given-name": "Dev"
+            }
+          },
+          {
+            "name": "projects/automatic-octo-telegram/agent/sessions/ABwppHHMIdBa5HPXbYZFrzfM7YrpQq3E0fMl3FVMcPY2PtBFgx9xlryHL2Z0esSedJ7hKNE3rM66cGpgePAtLlRiTpAyKoQ/contexts/actions_capability_media_response_audio",
+            "parameters": {
+              "given-name.original": "dev",
+              "given-name": "Dev"
+            }
+          },
+          {
+            "name": "projects/automatic-octo-telegram/agent/sessions/ABwppHHMIdBa5HPXbYZFrzfM7YrpQq3E0fMl3FVMcPY2PtBFgx9xlryHL2Z0esSedJ7hKNE3rM66cGpgePAtLlRiTpAyKoQ/contexts/redeploydev-followup",
+            "lifespanCount": 1,
+            "parameters": {
+              "given-name.original": "dev",
+              "given-name": "Dev"
+            }
+          }
+        ],
+        "intent": {
+          "name": "projects/automatic-octo-telegram/agent/intents/89a1783e-8988-46e9-ae84-f13843fd569c",
+          "displayName": "Redeploy dev - yes"
+        },
+        "intentDetectionConfidence": 1,
+        "diagnosticInfo": {
+          "end_conversation": true
+        },
+        "languageCode": "en-us"
+      },
+      "originalDetectIntentRequest": {
+        "source": "google",
+        "version": "2",
+        "payload": {
+          "isInSandbox": true,
+          "surface": {
+            "capabilities": [
+              {
+                "name": "actions.capability.WEB_BROWSER"
+              },
+              {
+                "name": "actions.capability.MEDIA_RESPONSE_AUDIO"
+              },
+              {
+                "name": "actions.capability.SCREEN_OUTPUT"
+              },
+              {
+                "name": "actions.capability.AUDIO_OUTPUT"
+              }
+            ]
+          },
+          "requestType": "SIMULATOR",
+          "inputs": [
+            {
+              "rawInputs": [
+                {
+                  "query": "yes",
+                  "inputType": "KEYBOARD"
+                }
+              ],
+              "arguments": [
+                {
+                  "rawText": "yes",
+                  "textValue": "yes",
+                  "name": "text"
+                }
+              ],
+              "intent": "actions.intent.TEXT"
+            }
+          ],
+          "user": {
+            "lastSeen": "2018-11-27T18:13:07Z",
+            "locale": "en-US",
+            "userId": "ABwppHHuFzyZhSPQ4izopzHWQeYsX7ZcIDH7PPuanlgL45-KH1A5zZxe4BRrnySZv0YoTudHpw6IcwUfcT7Eo-Qvs0uMfE4"
+          },
+          "conversation": {
+            "conversationId": "ABwppHHMIdBa5HPXbYZFrzfM7YrpQq3E0fMl3FVMcPY2PtBFgx9xlryHL2Z0esSedJ7hKNE3rM66cGpgePAtLlRiTpAyKoQ",
+            "type": "ACTIVE",
+            "conversationToken": "[\"redeploydev-followup\"]"
+          },
+          "availableSurfaces": [
+            {
+              "capabilities": [
+                {
+                  "name": "actions.capability.WEB_BROWSER"
+                },
+                {
+                  "name": "actions.capability.SCREEN_OUTPUT"
+                },
+                {
+                  "name": "actions.capability.AUDIO_OUTPUT"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "session": "projects/automatic-octo-telegram/agent/sessions/ABwppHHMIdBa5HPXbYZFrzfM7YrpQq3E0fMl3FVMcPY2PtBFgx9xlryHL2Z0esSedJ7hKNE3rM66cGpgePAtLlRiTpAyKoQ",
+      "id": 2
+    },
+    {
+      "responseId": "7017e20d-74b2-475f-833b-cb9e13ae39f3",
+      "queryResult": {
+        "queryText": "yes",
+        "action": "Redeploydev.Redeploydev-yes",
+        "parameters": {},
+        "allRequiredParamsPresent": true,
+        "fulfillmentText": "\"Ok, I'm redeploying dev\"",
+        "fulfillmentMessages": [
+          {
+            "platform": "ACTIONS_ON_GOOGLE",
+            "simpleResponses": {
+              "simpleResponses": [
+                {
+                  "textToSpeech": "\"Ok, I'm redeploying dev\""
+                }
+              ]
+            }
+          },
+          {
+            "text": {
+              "text": [
+                "\"Ok, I'm redeploying dev\""
+              ]
+            }
+          }
+        ],
+        "outputContexts": [
+          {
+            "name": "projects/automatic-octo-telegram/agent/sessions/ABwppHFUqRXMY2SN9m6Nxfm7aPXaLm7fTeQmhL-AtYuZej2ahtBf9vxWWQLziWYuH01xvEPA-mpocapqzoBRQ5Y-E5hYj9M/contexts/google_assistant_input_type_touch",
+            "parameters": {
+              "given-name.original": "dev",
+              "given-name": "Dev"
+            }
+          },
+          {
+            "name": "projects/automatic-octo-telegram/agent/sessions/ABwppHFUqRXMY2SN9m6Nxfm7aPXaLm7fTeQmhL-AtYuZej2ahtBf9vxWWQLziWYuH01xvEPA-mpocapqzoBRQ5Y-E5hYj9M/contexts/actions_capability_screen_output",
+            "parameters": {
+              "given-name.original": "dev",
+              "given-name": "Dev"
+            }
+          },
+          {
+            "name": "projects/automatic-octo-telegram/agent/sessions/ABwppHFUqRXMY2SN9m6Nxfm7aPXaLm7fTeQmhL-AtYuZej2ahtBf9vxWWQLziWYuH01xvEPA-mpocapqzoBRQ5Y-E5hYj9M/contexts/actions_capability_audio_output",
+            "parameters": {
+              "given-name.original": "dev",
+              "given-name": "Dev"
+            }
+          },
+          {
+            "name": "projects/automatic-octo-telegram/agent/sessions/ABwppHFUqRXMY2SN9m6Nxfm7aPXaLm7fTeQmhL-AtYuZej2ahtBf9vxWWQLziWYuH01xvEPA-mpocapqzoBRQ5Y-E5hYj9M/contexts/actions_capability_media_response_audio",
+            "parameters": {
+              "given-name.original": "dev",
+              "given-name": "Dev"
+            }
+          },
+          {
+            "name": "projects/automatic-octo-telegram/agent/sessions/ABwppHFUqRXMY2SN9m6Nxfm7aPXaLm7fTeQmhL-AtYuZej2ahtBf9vxWWQLziWYuH01xvEPA-mpocapqzoBRQ5Y-E5hYj9M/contexts/actions_capability_web_browser",
+            "parameters": {
+              "given-name.original": "dev",
+              "given-name": "Dev"
+            }
+          },
+          {
+            "name": "projects/automatic-octo-telegram/agent/sessions/ABwppHFUqRXMY2SN9m6Nxfm7aPXaLm7fTeQmhL-AtYuZej2ahtBf9vxWWQLziWYuH01xvEPA-mpocapqzoBRQ5Y-E5hYj9M/contexts/redeploydev-followup",
+            "lifespanCount": 1,
+            "parameters": {
+              "given-name.original": "dev",
+              "given-name": "Dev"
+            }
+          }
+        ],
+        "intent": {
+          "name": "projects/automatic-octo-telegram/agent/intents/89a1783e-8988-46e9-ae84-f13843fd569c",
+          "displayName": "Redeploy dev - yes"
+        },
+        "intentDetectionConfidence": 1,
+        "diagnosticInfo": {
+          "end_conversation": true
+        },
+        "languageCode": "en-us"
+      },
+      "originalDetectIntentRequest": {
+        "source": "google",
+        "version": "2",
+        "payload": {
+          "isInSandbox": true,
+          "surface": {
+            "capabilities": [
+              {
+                "name": "actions.capability.WEB_BROWSER"
+              },
+              {
+                "name": "actions.capability.AUDIO_OUTPUT"
+              },
+              {
+                "name": "actions.capability.SCREEN_OUTPUT"
+              },
+              {
+                "name": "actions.capability.MEDIA_RESPONSE_AUDIO"
+              }
+            ]
+          },
+          "requestType": "SIMULATOR",
+          "inputs": [
+            {
+              "rawInputs": [
+                {
+                  "query": "yes",
+                  "inputType": "TOUCH"
+                }
+              ],
+              "arguments": [
+                {
+                  "rawText": "yes",
+                  "textValue": "yes",
+                  "name": "text"
+                }
+              ],
+              "intent": "actions.intent.TEXT"
+            }
+          ],
+          "user": {
+            "lastSeen": "2018-11-27T18:31:20Z",
+            "locale": "en-US",
+            "userId": "ABwppHHuFzyZhSPQ4izopzHWQeYsX7ZcIDH7PPuanlgL45-KH1A5zZxe4BRrnySZv0YoTudHpw6IcwUfcT7Eo-Qvs0uMfE4"
+          },
+          "conversation": {
+            "conversationId": "ABwppHFUqRXMY2SN9m6Nxfm7aPXaLm7fTeQmhL-AtYuZej2ahtBf9vxWWQLziWYuH01xvEPA-mpocapqzoBRQ5Y-E5hYj9M",
+            "type": "ACTIVE",
+            "conversationToken": "[\"redeploydev-followup\"]"
+          },
+          "availableSurfaces": [
+            {
+              "capabilities": [
+                {
+                  "name": "actions.capability.WEB_BROWSER"
+                },
+                {
+                  "name": "actions.capability.AUDIO_OUTPUT"
+                },
+                {
+                  "name": "actions.capability.SCREEN_OUTPUT"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "session": "projects/automatic-octo-telegram/agent/sessions/ABwppHFUqRXMY2SN9m6Nxfm7aPXaLm7fTeQmhL-AtYuZej2ahtBf9vxWWQLziWYuH01xvEPA-mpocapqzoBRQ5Y-E5hYj9M",
+      "id": 3
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
