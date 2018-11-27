@@ -1,11 +1,6 @@
 {
   "posts": [
     {
-      "id": 1,
-      "title": "json-server",
-      "author": "typicode"
-    },
-    {
       "responseId": "7784facd-f49e-4aaa-99bc-7dd5e5b6bef8",
       "queryResult": {
         "queryText": "yes",
